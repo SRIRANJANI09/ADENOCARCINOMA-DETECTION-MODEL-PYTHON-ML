@@ -1,4 +1,5 @@
 # ADENOCARCINOMA-DETECTION-MODEL-PYTHON-ML
+
 __Importing Required Libraries__
 load_breast_cancer: This function loads the built-in breast cancer dataset from Scikit-learn.
 train_test_split: Splits the data into training and testing sets.
@@ -11,12 +12,13 @@ data["data"]: Feature values of the dataset.
 data["target"]: Class labels (malignant or benign).
 data["feature_names"]: Names of the features (e.g., 'mean radius', 'mean texture', etc.).
 data["target_names"]: The target label names (malignant or benign).
-__Extracting Features and Labels__
 
+__Extracting Features and Labels__
 label_names: Stores the class names ('malignant', 'benign').
 labels: Stores the class labels as integers (0 for malignant and 1 for benign).
 feature_names: Stores the names of the features.
 features: Stores the feature values (measurements for each tumor).
+
 __Viewing the Data__
 This prints:
 label_names: Displays the possible classifications: 'malignant' and 'benign'.
